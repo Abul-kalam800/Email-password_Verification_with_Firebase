@@ -86,7 +86,7 @@ const Register = () => {
                     <label className='label'>
                         <input type="checkbox" name="checkbox" className='mr-2' />
                         <small> Trams and conditions</small></label>
-                    <button className='btn w-full bg-black py-2'>Submit</button>
+                    <button type='submit' className='btn w-full bg-black py-2'>Submit</button>
                     <p>Already have account? Please go to <NavLink to="/login" className="text-blue-600 text-sm">Login</NavLink></p>
                 </form>
                 {
